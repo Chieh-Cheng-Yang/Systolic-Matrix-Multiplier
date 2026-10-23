@@ -1,0 +1,68 @@
+# ============================================================
+# Lab 3 - Git Ignore
+# Synopsys VCS / Verdi / Design Compiler generated files
+# ============================================================
+
+# ------------------------------------------------------------
+# VCS simulation generated files
+# ------------------------------------------------------------
+simv
+simv.*
+simv.daidir/
+csrc/
+DVEfiles/
+DVEFiles/
+ucli.key
+vc_hdrs.h
+
+*.vpd
+vcdplus.vpd
+
+# VCS logs
+*.log
+
+# ------------------------------------------------------------
+# Verdi generated files
+# ------------------------------------------------------------
+*.fsdb
+*.fsdb.*
+novas.conf
+novas.rc
+novas_dump.log
+novas.log
+verdiLog/
+verdi_config_file
+
+# Saved Verdi signal/waveform configurations
+*.rc
+
+# ------------------------------------------------------------
+# Synopsys Design Compiler generated files
+# ------------------------------------------------------------
+WORK/
+*.syn
+*.pvl
+*.mr
+*.svf
+
+command.log
+default.svf
+
+# Generated synthesis reports
+*.rep
+
+# ------------------------------------------------------------
+# Other generated / temporary files
+# ------------------------------------------------------------
+*.tmp
+*.bak
+*~
+.DS_Store
+
+# ------------------------------------------------------------
+# Editor files
+# ------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
